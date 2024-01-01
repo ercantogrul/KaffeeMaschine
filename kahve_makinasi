@@ -1,4 +1,4 @@
-  Basit bir Kahve Sanal Uygulaması oluşturun.
+cd  Basit bir Kahve Sanal Uygulaması oluşturun.
    1. 3 çeşit kahvemiz olsun.
    2. Sistem şu soruyu sorsun: "Hangi Kahveyi istersiniz?"
    3. Bu soru ile birlikte kullanıcı kahve bilgilerini görsün.
