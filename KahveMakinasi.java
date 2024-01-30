@@ -37,7 +37,7 @@ public class KahveMakinasi {
         try {
             kahveSecimi = scan.nextInt();
             if (kahveSecimi < 1 || kahveSecimi > 4) {
-                System.out.println("Hatali giris yaptiniz");
+                System.out.println("Hatali giris yaptiniz.");
                 menu();
             }
             if (kahveSecimi == 1) {
@@ -50,10 +50,10 @@ public class KahveMakinasi {
                 System.out.println("cikis yaptiniz ");
                 System.exit(0);
             } else {
-                System.out.println("hatali giris yaptiniz");
+                System.out.println("Hatali giris yaptiniz");
             }
         } catch (Exception e) {
-            System.out.println("hatali giris yaptiniz");
+            System.out.println("Hatali giris yaptiniz");
             menu();
         }
         kahveBoy();
@@ -77,10 +77,10 @@ public class KahveMakinasi {
                 System.out.println("Büyük boy " +kahveBoyLIstesi.get(kahveBoy-1)+ kahveListesi.get(kahveSecimi - 1) + " hazirlaniyor");
                 kahveFiyat += 20;
             } else {
-                System.out.println("hatali giris yaptiniz");
+                System.out.println("Hatali giris yaptiniz");
             }
         } catch (Exception e) {
-            System.out.println("hatali giris yaptiniz");
+            System.out.println("Hatali giris yaptiniz");
             kahveBoy();
         }
         sutEkleme();
